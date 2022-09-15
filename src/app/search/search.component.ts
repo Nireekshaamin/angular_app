@@ -16,9 +16,9 @@ export class SearchComponent implements OnInit {
 
  //To pass information between components we have @Input and @Output
 
- @Input('product') //Laptop
+ @Input('product') 
  //write
- set pname(pname:any) //Laptop
+ set pname(pname:any) 
  {
    this._productname=pname || 'not found';
    console.log(pname)

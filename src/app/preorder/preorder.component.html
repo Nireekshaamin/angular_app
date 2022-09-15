@@ -1,0 +1,9 @@
+   <!--event to hide product details-->
+   <button style="margin: 20px" (click)="showhide_products()">Best Sellers</button>
+  <!--*ngFor to retrieve the contents from the product-->
+  <ul *ngIf="isVisible">
+    <li *ngFor="let product of Products">
+        {{product.productname}}
+    </li>
+  </ul>
+ 

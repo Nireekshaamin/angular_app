@@ -9,16 +9,19 @@ export class NavComponent implements OnInit {
 
   constructor() { }
   //STRING INTERPOLATION
-  title = 'amazon';
+  title = 'BookWorm';
   //PROPERTY BINDING
-  public logo="https://pngimg.com/uploads/amazon/amazon_PNG5.png";
+  public logo="https://cdn-icons-png.flaticon.com/512/29/29302.png";
   //EVENT BINDING
   onSearch()
   {
-    alert("Will contact shortly");
+    alert("Post your queries here");
   }
-
-  //Accessing the Search Component
+  onPost()
+  {
+    alert("Query posted successfully");
+  }
+//Accessing the Search Component
   //Property
   productentered: string=' '  //Laptop
 

@@ -1,0 +1,120 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-bestseller',
+  templateUrl: './bestseller.component.html',
+  styleUrls: ['./bestseller.component.css']
+})
+export class BestsellerComponent implements OnInit {
+
+  constructor() { }
+  onAdd()
+  {
+    alert("Item added to cart");
+  }
+  ProductDetails:any[]=[
+    {
+      "pid":"001",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/71j0FLAauxL.jpg",
+      "pname":"It ends with us",
+      "pdescription":"Its marketed as romance, and involves lighthearted love triangle instead of a woman's experience with spousal abuse.",
+      "Status":"In Stock",
+      "price": 247
+    },
+    {
+      "pid":"002",
+      "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSerr0Lo7tpDMBWx6INe8Zq8mW88IsDJtJL_2uLQ3OTa7EALmyv",
+      "pname":"Where the crawdads sing",
+      "pdescription":"A woman who raised herself in the marshes of the deep South becomes a suspect in the murder of a man she was once involved ",
+      "Status":"In Stock",
+      "price": 500
+    },
+    {
+      "pid":"003",
+      "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634158558l/59344312._SY475_.jpg",
+      "pname":"Verity",
+      "pdescription":"Verity's purported autobiography is a dark and disturbing confession of Verity's feelings, motivations, and vile acts",
+      "Status":"Out of Stock",
+      "price": 449
+    },
+    {
+      "pid":"004",
+      "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632597571l/17788401._SY475_.jpg",
+      "pname":"Ugly Love",
+      "pdescription":"Ugly Love is the story of Tate and Miles, who are neighbors and form a friends with benefits relationship soon after meeting",
+      "Status":"In Stock",
+      "price": 399
+    },
+    {
+      "pid":"005",
+      "image":"https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/I/51-uspgqWIL._SX329_BO1,204,203,200_.jpg",
+      "pname":"Atomic Habits",
+      "pdescription":"Packed with evidence-based strategies, it will teach you how to make small changes that will transform your habits and deliver amazing results.",
+      "Status":"Out of Stock",
+      "price": 247
+    },
+    {
+      "pid":"006",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/51W0hN8A7%2BL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"The ink black heart",
+      "pdescription":"The Ink Black Heart is a crime fiction novel by the English author J. K. Rowling, written under the pseudonym Robert Galbraith",
+      "Status":"In Stock",
+      "price": 499
+    },
+    {
+      "pid":"007",
+      "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642984407l/60142750.jpg",
+      "pname":"All good people here",
+      "pdescription":"All Good People Here is a debut thriller written by podcast host Ashley Flowers. Her experience with true crime shines through in this book of fiction.",
+      "Status":"Out of Stock",
+      "price": 999
+    },
+    {
+      "pid":"008",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/410llGwMZGL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"The alchemist",
+      "pdescription":"Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
+      "Status":"In Stock",
+      "price": 899
+    },
+    {
+      "pid":"009",
+      "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuY9Zqj8XkQErwFDrTiwCuDzohe7skAFkcL0rcdqf9WaF0GTo-",
+      "pname":"Rich dad poor dad",
+      "pdescription":"It offers personal finance education to learn about cash flow, investing, and business.",
+      "Status":"In Stock",
+      "price": 530
+    },
+    {
+      "pid":"010",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"Ikigai",
+      "pdescription":"Ikigaigently unlocks simple secrets we can all use to live long, meaningful, happy lives. ",
+      "Status":"In Stock",
+      "price": 399
+    },
+    {
+      "pid":"011",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"The power of subconcious mind",
+      "pdescription":"To be able to control this 'mind power' ",
+      "Status":"In Stock",
+      "price": 299
+    },
+    {
+      "pid":"012",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/41CqlzJS-NL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"Think and grow rich",
+      "pdescription":"It was the first book to boldly ask, What makes a winner",
+      "Status":"In Stock",
+      "price": 1099
+    }
+    
+  ]
+
+  price:number | undefined;
+  ngOnInit(): void {
+    this.price=427;
+  }
+
+}
