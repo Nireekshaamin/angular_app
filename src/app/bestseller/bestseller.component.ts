@@ -12,6 +12,10 @@ export class BestsellerComponent implements OnInit {
   {
     alert("Item added to cart");
   }
+  onAdd1()
+  {
+    alert("Item cannot be added to cart");
+  }
   ProductDetails:any[]=[
     {
       "pid":"001",

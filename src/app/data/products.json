@@ -1,0 +1,51 @@
+[
+    {
+        "pid":"001",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/534/9780593438534.jpg",
+        "pname":"Every Summer After",
+        "pdescription":"Six summers to fall in love. One moment to fall apart. A weekend to get it right.",
+        "Status":"In Stock",
+        "price": 796
+      },
+      {
+        "pid":"002",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/480/9781974728480.jpg",
+        "pname":"Spy X Family",
+        "pdescription":"An action-packed comedy about a fake family that includes a spy, an assassin and a telepath!",
+        "Status":"Out of Stock",
+        "price": 560
+      },
+      {
+        "pid":"003",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/384/9780800762384.jpg",
+        "pname":"Prophetic Forecast",
+        "pdescription":"Prophetic Forecast is not just a book. It is God's prophetic Spirit leading the Body of Christ into glory days.",
+        "Status":"Out of Stock",
+        "price": 1052
+      },
+      {
+        "pid":"004",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/477/9780063230477.jpg",
+        "pname":"The End of the World Is Just the Beginning",
+         "pdescription":"Zeihan brings readers along for an illuminating ride packed with foresight, wit, and his trademark irreverence.",
+        "Status":"In Stock",
+        "price": 1643
+      },
+      {
+        "pid":"005",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/269/9781338802269.jpg",
+        "pname":"The Super Cup Face-Off ",
+        "pdescription":"The Super Cup Face-Off is the 81st book in the Geronimo Stilton series and was released on 28th June, 2022",
+        "Status":"In Stock",
+        "price": 518
+      },
+      
+      {
+        "pid":"006",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/681/9781644114681.jpg",
+        "pname":"Soul Helper Oracle",
+        "pdescription":"A 43-card deck and book to help you hear the whispers and wisdom of your soul",
+        "Status":"In Stock",
+        "price": 876
+      }
+]

@@ -10,6 +10,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
    //TWO-WAY BINDING
    name="John"
+   //STRING INTERPOLATION
+  title = 'BookWorm';
 
    onAdd()
   {

@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import * as productdetails from '../data/products1.json'
-
+import * as productdetails from '../data/products2.json'
 @Component({
-  selector: 'app-boxsets',
-  templateUrl: './boxsets.component.html',
-  styleUrls: ['./boxsets.component.css']
+  selector: 'app-children',
+  templateUrl: './children.component.html',
+  styleUrls: ['./children.component.css']
 })
-export class BoxsetsComponent implements OnInit {
+export class ChildrenComponent implements OnInit {
 
   constructor() { }
   onAdd()

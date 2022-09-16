@@ -1,4 +1,4 @@
-<h2 style="text-align:center;"><b>Best Sellers</b></h2>
+<h2 style="margin-left:550px;"><b>Best Sellers</b></h2>
 <br>
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px; ">
     <div class="col" *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.Status">
@@ -8,12 +8,15 @@
                 <h5>{{pdetails.pname}}</h5>
                 <p style=padding-left:5px;><b>Book Id: </b>{{pdetails.pid}}</p>
                     <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{pdetails.pdescription}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="green">{{pdetails.Status}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="red">{{pdetails.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{pdetails.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{pdetails.Status}}</p>
                     <br>
                     {{pdetails.price | currency:'INR'}}<br>
                 
-                    <input type="number" min="1" max="5" value="1"><button type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 15px;">
+                    <input type="number" min="1" max="5" value="1"><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 15px;">
+                    Add to cart
+                </button>
+                <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 15px;">
                     Add to cart
                 </button>
 
