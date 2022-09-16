@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import * as productdetails from '../data/products1.json'
-
+import * as productdetails from '../data/feauthors.json'
 @Component({
-  selector: 'app-boxsets',
-  templateUrl: './boxsets.component.html',
-  styleUrls: ['./boxsets.component.css']
+  selector: 'app-featured',
+  templateUrl: './featured.component.html',
+  styleUrls: ['./featured.component.css']
 })
-export class BoxsetsComponent implements OnInit {
+export class FeaturedComponent implements OnInit {
 
+ 
   constructor() { }
   onAdd()
   {

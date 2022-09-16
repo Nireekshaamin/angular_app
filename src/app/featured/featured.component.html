@@ -1,4 +1,8 @@
-<h2 style="text-align:center;"><b>New Arrival</b></h2>
+<div class="row">
+    <app-authors></app-authors>
+</div>
+<hr>
+<h2 style="text-align:center;"><b>Featured Author Books</b></h2>
 <br>
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px; ">
     <div class="col" *ngFor="let prod of product" [ngSwitch]="prod.Status">
@@ -8,8 +12,8 @@
                 <h5>{{prod.pname}}</h5>
                 <p style=padding-left:5px;><b>Book Id: </b>{{prod.pid}}</p>
                     <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{prod.pdescription}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="green">{{prod.Status}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="red">{{prod.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{prod.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{prod.Status}}</p>
                     <br>
                     {{prod.price | currency:'INR'}}<br>
                 

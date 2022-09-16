@@ -4,12 +4,12 @@
     <!--PROPERTY BINDING IN img tag-->
     <a class="navbar-brand" href="#">
       <img [src]="logo" alt="bookworm"> &nbsp;<b style="color: black;">{{title}}</b></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >;
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="d-flex" style="margin-left:100px;">
-        <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;border: 2px solid;">&nbsp;
+        <input type="text" #productname placeholder="Search by author, title..." style="border-radius:10px;border: 2px solid; ">&nbsp;
         <!--EVENT BINDING-->
         <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
         <!--Access the Search Component-->
@@ -39,7 +39,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 10px;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
           <li class="nav-item">
             <!--href - render the entire page-->
@@ -62,66 +62,44 @@
             <a class="nav-link" routerLink="bestseller" style="color: white;">Best Sellers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="preorder" style="color: white;">Pre Order</a>
+            <a class="nav-link" routerLink="new" style="color: white;">New arrival</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="boxsets" style="color: white;">Box Sets</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Children & Young Adult
+              Children & Adults
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" routerLink="children">Children</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" routerLink="adults">Adults</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="featured" style="color: white;">Featured Authors</a>
+          </li>
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Fiction & Non-Fiction
+              Fiction & Non-fiction
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" routerLink="fiction">Fiction</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" routerLink="nonfiction">Non-fiction</a></li>
+              
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Featured Authors
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="boxsets" style="color: white;">School Education</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              School Education
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="boxsets" style="color: white;">Test Preparation</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Test Prep
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+          
+         
         </ul>
         
       </div>

@@ -1,0 +1,33 @@
+[
+    {
+        "aid":"001",
+        "aimage":"https://media.glamour.com/photos/6217d495e8b28d9a55765674/4:3/w_2664,h_1998,c_limit/2-23%20dtw%20colleen%20hoover.jpg",
+        "aname":"Collen Hover"
+    },
+    {
+        "aid":"002",
+        "aimage":"https://cdn.shopify.com/s/files/1/2789/4914/files/Sudha_Murty_Books.jpg?v=1606299922",
+        "aname":"Sudha Murthy"
+    },
+    {
+        "aid":"003",
+        "aimage":"https://image.cnbcfm.com/api/v1/image/106583038-1592488934301morganhouselfheadshot.jpg?v=1607717173",
+        "aname":"Morgan Housel"
+    },
+    {
+        "aid":"004",
+        "aimage":"https://deadline.com/wp-content/uploads/2018/04/paulo-coelho-2.jpg?w=653&h=383&crop=1",
+        "aname":"Paulo Coelho"
+    },
+    {
+        "aid":"005",
+        "aimage":"https://m.media-amazon.com/images/S/amzn-author-media-prod/8cigckin175jtpsk3gs361r4ss._SX450_.jpg",
+        "aname":"J K Rowling"
+    },
+    {
+        "aid":"006",
+        "aimage":"https://m.economictimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg",
+        "aname":"Robin Sharma"
+    }
+
+]
