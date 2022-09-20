@@ -11,19 +11,19 @@ export class SearchComponent implements OnInit {
 
   ngOnInit(): void {
   }
- //property - _productname
+
  _productname:any | undefined;
 
- //To pass information between components we have @Input and @Output
+
 
  @Input('product') 
- //write
+
  set pname(pname:any) 
  {
    this._productname=pname || 'not found';
    console.log(pname)
  }
- //read
+
  get pname():string
  {
    return this._productname;
