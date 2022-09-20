@@ -1,27 +1,28 @@
-<h2 style="text-align:center;"><b>New Arrival</b></h2>
-<br>
-<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px; ">
-    <div class="col" *ngFor="let prod of product" [ngSwitch]="prod.Status">
-        <div class="card h-100">
-            <img src="{{prod.image}}" style="border: 1px solid;" class="card-img-top" alt="..." height="320px">
-            <div class="card-body" >
-                <h5>{{prod.pname}}</h5>
-                <p style=padding-left:5px;><b>Book Id: </b>{{prod.pid}}</p>
-                    <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{prod.pdescription}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="green">{{prod.Status}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="red">{{prod.Status}}</p>
-                    <br>
-                    {{prod.price | currency:'INR'}}<br>
-                
-                    <input type="number" min="1" max="5" value="1"><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 15px;">
-                        Add to cart
-                    </button>
-                    <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 15px;">
-                        Add to cart
-                    </button>
-
-                <!-- Modal -->
-                
+<div class="col">
+    <div class="card h-100" [ngSwitch]="product.Status" >
+        <img src="{{product.image}}" style="border: 1px solid;" class="card-img-top"  alt="..." height="220px">
+        <div class="card-body" >
+            <h6>{{product.pname}}</h6>
+            <p style=padding-left:5px;><b>Book Id: </b>{{product.pid}}</p>
+            <div>
+            <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
             </div>
+            <div [hidden]="productDetail">
+            <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{product.pdescription}}</p>
+           </div>
+            <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{product.Status}}</p>
+            <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{product.Status}}</p>
+        {{product.price | currency:'INR'}}<br>
+                    
+        <app-counter1></app-counter1>
+        <br>
+        <br><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Add to cart
+                        </button>
+                        <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Add to cart
+                        </button>
+        </div>
         </div>
     </div>
+

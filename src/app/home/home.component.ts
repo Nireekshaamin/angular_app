@@ -53,8 +53,8 @@ price6:number | undefined;
     this.price1=599;
     this.price2=1099;
     this.price3=540;
-    this.price6=799;
-
+    this.price6=290;
+    this.price4=540;
   }
 
 }

@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
     <!--STRING INTERPOLATION-->
@@ -20,10 +21,11 @@
         <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
         &nbsp;&nbsp;&nbsp;
         <app-search [product]="productentered"></app-search>
-        <input type="text"  (click)="onSearch()" #productname placeholder="Hello User" style="border-radius:10px;border:2px solid;margin-left: 200px;">&nbsp;
+        <input type="text"  (click)="onSearch()" #productname placeholder="Hello User" style="border-radius:10px;border:2px solid;margin-left: 150px;">&nbsp;
         <button class="btn btn-outline-success" type="submit" (click)="onPost()" style="border-radius:10px;">Post</button>
         
-        <!--EVENT BINDING-->
+        <a routerLink="login"><button class="btn btn-primary" type="submit"  style="border-radius:2px;margin-left: 120px;height: 50px;">Login</button></a>
+        <a routerLink="register"><button class="btn btn-primary" type="submit"  style="border-radius:2px;margin-left: 10px;width: 85px;height: 50px;">Sign Up</button></a>
         
         
       </form>
@@ -48,15 +50,9 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/2048px-Home-icon.svg.png" alt="home" style="height: 30px;width:30px;"></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+            <a class="nav-link " routerLink="book" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
               Book
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" routerLink="preorder">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="bestseller" style="color: white;">Best Sellers</a>
@@ -88,15 +84,15 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" routerLink="fiction">Fiction</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" routerLink="nonfiction">Non-fiction</a></li>
+              <li><a class="dropdown-item" routerLink="non">Non-fiction</a></li>
               
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="boxsets" style="color: white;">School Education</a>
+            <a class="nav-link" routerLink="school" style="color: white;">School Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="boxsets" style="color: white;">Test Preparation</a>
+            <a class="nav-link" routerLink="test" style="color: white;">Test Preparation</a>
           </li>
           
          

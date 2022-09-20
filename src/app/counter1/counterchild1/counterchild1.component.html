@@ -1,0 +1,11 @@
+<div style="margin-top:20px;">
+    <div class="btn" style="background-color: rgba(92, 86, 86, 0.201);">
+        <button class="btn" style="background-color: rgba(207, 198, 198, 0.642);" [disabled]="!countLessThenOne" (click)="decrement();">
+            -
+        </button>
+        <input type="button" class="btn btn-light" [value]="counterValue">
+        <button class="btn" style="background-color: rgba(207, 198, 198, 0.642);" (click)="increment();">
+            +
+        </button>
+    </div>
+</div>

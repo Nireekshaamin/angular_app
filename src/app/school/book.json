@@ -1,0 +1,52 @@
+[
+    {
+      "pid":"001",
+      "image":"https://m.media-amazon.com/images/I/51kGb6+VNaL.jpg",
+      "pname":"CBSE All In One English Core Class 12",
+      "pdescription":"It helps students practice the concepts using hundreds of practice questions of all types.",
+      "Status":"In Stock",
+      "price": 247
+    },
+    {
+      "pid":"002",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/41ySgG2G9cL._SX353_BO1,204,203,200_.jpg",
+      "pname":"Wren And Martin -high School English Grammar",
+      "pdescription":"Widely used reference books on English Grammar. It gives detailed information about the language.",
+      "Status":"In Stock",
+      "price": 500
+    },
+    {
+      "pid":"003",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/41DfdedDx9L._SX319_BO1,204,203,200_.jpg",
+      "pname":"Secondary School Mathematics for Class 10 ",
+      "pdescription":"By solving as many questions from it regularly one can attempt any question coming in exams.",
+      "Status":"Out of Stock",
+      "price": 449
+    },
+    {
+      "pid":"004",
+      "image":"https://m.media-amazon.com/images/I/41VN-yyv0xL._SX260_.jpg",
+      "pname":"Olympiad Champs General Knowledge",
+      "pdescription":"The book provides complete theory with Illustrations (real-life Images) along with fully solved Exercises in 2 levels.",
+      "Status":"In Stock",
+      "price": 399
+    },
+    {
+      "pid":"005",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51StpsEgxjL.jpg",
+      "pname":"NCERT Solutions Chemistry 12th",
+      "pdescription":"Class 12 Chemistry teaches about organic, inorganic, and physical chemistry. It builds the base of applied science.",
+      "Status":"Out of Stock",
+      "price": 247
+    },
+    {
+      "pid":"006",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/611f8RIxmSL.jpg",
+      "pname":"NCERT Solutions for Class 11 Physics",
+      "pdescription":"This book contains solutions to NCERT Textbook questions has been designed for the students studying in Class XI.",
+      "Status":"In Stock",
+      "price": 499
+    }
+   
+    
+  ]

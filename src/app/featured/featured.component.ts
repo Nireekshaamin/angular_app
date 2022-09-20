@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import * as productdetails from '../data/feauthors.json'
+import { Component, OnInit,Input } from '@angular/core';
+
 @Component({
   selector: 'app-featured',
   templateUrl: './featured.component.html',
@@ -18,11 +18,28 @@ export class FeaturedComponent implements OnInit {
     alert("Item cannot be added to cart");
   }
 
-  price:number | undefined;
+  @Input()product:any
+
   ngOnInit(): void {
-    
   }
 
-product:any = (productdetails as any).default;
+  productDetail=false;
+  //Event to perform the toggle effect
+  showproductDetailsToggle()
+  {
+    this.productDetail=!this.productDetail;
+  }
+  //function to toggle between the span content from + to - and vice versa
+  //and bind the function to [ngClass]
+  toggleContent(){
+    var content='';
+    if(this.productDetail){
+      content='fa fa-plus';
+    }
+    else{
+      content='fa fa-minus';
+    }
+    return content;
+  }
 
 }

@@ -1,0 +1,51 @@
+[
+    {
+        "pid":"006",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/414mKbgNRyL._SY495_BO1,204,203,200_.jpg",
+        "pname":"The Hunger Games",
+        "pdescription":"The first novel in the worldwide bestselling series by Suzanne Collins! Winning means fame and fortune. Losing means certain death. ",
+        "Status":"In Stock",
+        "price": 864
+      },
+      {
+        "pid":"002",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/480/9781974728480.jpg",
+        "pname":"Spy X Family",
+        "pdescription":"An action-packed comedy about a fake family that includes a spy, an assassin and a telepath!",
+        "Status":"Out of Stock",
+        "price": 560
+      },
+      {
+        "pid":"003",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81zqe4fNdlL.jpg",
+        "pname":"Harry Potter Box Set",
+        "pdescription":"The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley,",
+        "Status":"In Stock",
+        "price": 1199
+      },
+      {
+        "pid":"001",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51ebKPoViIL._SY478_BO1,204,203,200_.jpg",
+        "pname":"A Song of Ice and Fire",
+         "pdescription":"HBO’s hit series A Game of Thrones is based on George R R Martin’s internationally bestselling series A Song of Ice and Fire, the greatest fantasy epic of the modern age.",
+        "Status":"In Stock",
+        "price": 2639
+      },
+      {
+        "pid":"005",
+        "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/269/9781338802269.jpg",
+        "pname":"The Super Cup Face-Off ",
+        "pdescription":"The Super Cup Face-Off is the 81st book in the Geronimo Stilton series and was released on 28th June, 2022",
+        "Status":"In Stock",
+        "price": 518
+      },
+      
+      {
+        "pid":"001",
+        "image":"https://images-eu.ssl-images-amazon.com/images/I/41vVdFtbjhL._AC_SX368_.jpg",
+        "pname":"The last bear",
+         "pdescription":"A beautiful story of friendship between a polar bear and a lonely girl, staying in the Arctic with her scientist father. ",
+        "Status":"In Stock",
+        "price": 396
+      }
+]

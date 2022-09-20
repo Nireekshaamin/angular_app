@@ -1,0 +1,31 @@
+
+<div class="row">
+    <app-authors></app-authors>
+</div>
+<hr>
+<div style="margin-top: 30px;">
+    <div class="row">
+        <!--1st column-->
+        <div class="col col-lg-2" style="padding-left: 20px;border-right: 1px solid black;height: 930px; " >
+            <app-category></app-category>
+        </div>
+
+        <!--2nd column-->
+        
+        <div class="card col-lg-6"  style="border:none;margin-top: 30px;width: 840px;background-color: rgb(237, 243, 254);">
+            <h6 style="margin-left: 360px; font-size: larger;"><b>Adult Books</b></h6><br>
+           
+                <!--Interpolation Binding-->
+               
+            <app-adults [product]="productItem" *ngFor="let productItem of all" ></app-adults>
+        </div>
+        
+        
+        <!--3rd column-->
+        <div class="col col-lg-3" style="width: 210px; ">
+            <app-advertisement></app-advertisement>
+            
+        </div>
+    </div>
+
+

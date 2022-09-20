@@ -1,0 +1,30 @@
+
+         <div class="col" >
+            <div class="card h-100" [ngSwitch]="product.Status">
+                <img src="{{product.image}}" style="border: 1px solid;" class="card-img-top"  alt="..." height="220px">
+                <div class="card-body" >
+                    <h6>{{product.pname}}</h6>
+                    <p style=padding-left:5px;><b>Book Id: </b>{{product.pid}}</p>
+                    <div>
+                    <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                    </div>
+                    <div [hidden]="productDetail">
+                    <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{product.pdescription}}</p>
+                   </div>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{product.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{product.Status}}</p>
+                {{product.price | currency:'INR'}}<br>
+                            
+                <app-counter1 ></app-counter1>
+                <br>
+                <br><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Add to cart
+                                </button>
+                                <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Add to cart
+                                </button>
+                </div>
+                </div>
+            </div>
+       
+

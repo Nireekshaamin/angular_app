@@ -1,0 +1,42 @@
+<br>
+<h2 style="text-align: center;"><strong>Login Form</strong></h2>
+<div class="card" style="margin-left: 330px;margin-top: 50px;margin-right: 100px;width: 600px; border-radius: 20px; box-shadow:5px 2px 20px 5px rgb(65, 84, 228);">
+      
+<form [formGroup]="myform" nonvalidate style="margin-left: 80px;margin-top: 50px;margin-right: 100px;margin-bottom: 50px;float: left;width:70%">
+    
+    
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control" placeholder="Enter email" formControlName="useremail"
+            [ngClass]="{'is-invalid':useremail.errors && (useremail.touched||useremail.dirty),'is-valid':useremail.valid}">
+      
+        <span class="invalid-feedback">
+            <strong *ngIf="useremail.errors?.required">Email is Required</strong>
+        </span>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" placeholder="Enter Password" formControlName="password"
+            [ngClass]="{'is-invalid':password.errors && (password.touched||password.dirty),'is-valid':password.valid}">
+       
+        <span class="invalid-feedback">
+            <strong *ngIf="password.errors?.required">Password is Required</strong>
+            <strong *ngIf="password.errors?.pattern">Pattern does not match</strong>
+        </span>
+    </div>
+    <br>
+    
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()">SUBMIT</button>
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+

@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import * as productdetails from '../data/products1.json'
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-boxsets',
@@ -17,12 +16,28 @@ export class BoxsetsComponent implements OnInit {
   {
     alert("Item cannot be added to cart");
   }
+  @Input()product:any
 
-  price:number | undefined;
   ngOnInit(): void {
-    
   }
 
-product:any = (productdetails as any).default;
+  productDetail=false;
+  //Event to perform the toggle effect
+  showproductDetailsToggle()
+  {
+    this.productDetail=!this.productDetail;
+  }
+  //function to toggle between the span content from + to - and vice versa
+  //and bind the function to [ngClass]
+  toggleContent(){
+    var content='';
+    if(this.productDetail){
+      content='fa fa-plus';
+    }
+    else{
+      content='fa fa-minus';
+    }
+    return content;
+  }
 
 }
