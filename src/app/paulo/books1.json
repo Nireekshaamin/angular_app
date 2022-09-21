@@ -1,0 +1,28 @@
+[
+    {
+      "pid":"001",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/410llGwMZGL._SX328_BO1,204,203,200_.jpg",
+      "pname":"The Alchemist",
+      "pdescription":"The Alchemist is a beautifully written story that has a timeless, mythical quality. It is easy to see how it has captivated people around the world",
+      "Status":"In Stock",
+      "price": 232
+    },
+    {
+      "pid":"002",
+      "image":"https://kbimages1-a.akamaihd.net/56d91131-79e4-46c5-9d8e-0bc4e000ca9a/1200/1200/False/eleven-minutes-1.jpg",
+      "pname":"Eleven Minutes",
+      "pdescription":"Eleven Minutes is a story about a young girl who is a prostitute by profession and is trying to learn and find the mysteries of the pleasure of the world.",
+      "Status":"In Stock",
+      "price": 294
+    },
+    {
+      "pid":"003",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51nk4uTFLBL.jpg",
+      "pname":"Aleph",
+      "pdescription":"In ninety days of pilgrimage the author traveled around the globe and took the famous Transiberrian train that took him to Vladivostok.",
+      "Status":"Out of Stock",
+      "price": 224
+    }
+   
+    
+  ]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { UserService } from '../user.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private authService:UserService) { }
    //TWO-WAY BINDING
    name="John"
    //STRING INTERPOLATION
   title = 'BookWorm';
-
+  auth:boolean=false;
    onAdd()
   {
     alert("Item added to cart");
@@ -49,12 +49,21 @@ price3:number | undefined;
 price4:number | undefined;
 price6:number | undefined;
   ngOnInit(): void {
+    this.authService.authSubject.subscribe(
+      data => 
+      {
+        console.log('auth inside nav component: ' + data);
+        this.auth = data;
+      }
+    );
     this.price=427;
     this.price1=599;
     this.price2=1099;
     this.price3=540;
     this.price6=290;
     this.price4=540;
+   
+  }
   }
 
-}
+

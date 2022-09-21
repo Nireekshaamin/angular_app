@@ -15,14 +15,15 @@
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{product.Status}}</p>
                 {{product.price | currency:'INR'}}<br>
                             
-                <app-counter1 ></app-counter1>
+                <app-counter1 *ngIf="auth" ></app-counter1>
                 <br>
-                <br><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <br><div *ngIf="auth"><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     Add to cart
                                 </button>
                                 <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     Add to cart
                                 </button>
+                                </div>
                 </div>
                 </div>
             </div>

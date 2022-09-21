@@ -1,0 +1,27 @@
+[
+    {
+      "pid":"001",
+      "image":"https://images-eu.ssl-images-amazon.com/images/I/410BqHSamiL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname":"The Monk Who Sold His Ferrari",
+      "pdescription":"A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life.",
+      "Status":"In Stock",
+      "price": 270
+    },
+    {
+      "pid":"002",
+      "image":"https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY327_FMwebp_QL65_.jpg",
+      "pname":"The 5 AM Club",
+      "pdescription":" It is the trailblazing—and astonishing—story of two everyday human beings seeking greater productivity, prosperity and serenity in this age of digital distraction and overwhelming complexity who meet a most weird and wonderful tycoon",
+      "Status":"In Stock",
+      "price": 670
+    },
+    {
+      "pid":"003",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/71gz98jq9ZS.jpg",
+      "pname":"The Everyday Hero Manifesto",
+      "pdescription":"In The Everyday Hero Manifesto you will discover: · The hidden habits used by many of the world's most creative and successful people to realize their visionary ambitions ",
+      "Status":"Out of Stock",
+      "price": 220
+    }
+    
+  ]

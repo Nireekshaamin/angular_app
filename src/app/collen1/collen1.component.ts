@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { UserService } from '../user.service';
 @Component({
   selector: 'app-collen1',
   templateUrl: './collen1.component.html',
@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class Collen1Component implements OnInit {
 
-  constructor() { }
+  constructor(private authService:UserService) { }
+  auth:boolean=false;
   onAdd()
   {
     alert("Item added to cart");
@@ -19,6 +20,13 @@ export class Collen1Component implements OnInit {
   @Input()product:any
 
   ngOnInit(): void {
+    this.authService.authSubject.subscribe(
+      data => 
+      {
+        console.log('auth inside nav component: ' + data);
+        this.auth = data;
+      }
+    );
   }
 
   productDetail=false;

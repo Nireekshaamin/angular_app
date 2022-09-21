@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -51,6 +51,13 @@ import { CfeaturedComponent } from './featured/cfeatured/cfeatured.component';
 import { CsudhaComponent } from './sudha/csudha/csudha.component';
 import { Sudha1Component } from './sudha1/sudha1.component';
 import { Csudha1Component } from './sudha1/csudha1/csudha1.component';
+import { CmorganComponent } from './morgan/cmorgan/cmorgan.component';
+import { CpauloComponent } from './paulo/cpaulo/cpaulo.component';
+import { CrowlingComponent } from './rowling/crowling/crowling.component';
+import { CrobinComponent } from './robin/crobin/crobin.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { Home1Component } from './home1/home1.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 
 
@@ -107,6 +114,13 @@ import { Csudha1Component } from './sudha1/csudha1/csudha1.component';
     CsudhaComponent,
     Sudha1Component,
     Csudha1Component,
+    CmorganComponent,
+    CpauloComponent,
+    CrowlingComponent,
+    CrobinComponent,
+    ProductdetailsComponent,
+    Home1Component,
+    CartItemsComponent
    
     
    
@@ -120,7 +134,9 @@ import { Csudha1Component } from './sudha1/csudha1/csudha1.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -79,10 +79,10 @@
                 Price: {{price | currency:'INR'}}
                 
                 <br>
-                <app-counter1></app-counter1>
+                <app-counter1 *ngIf="auth"></app-counter1>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button"  *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -134,10 +134,10 @@
                 Price: {{price6 | currency:'INR'}}
                 <br>
                 
-               <app-counter1></app-counter1>
+               <app-counter1 *ngIf="auth"></app-counter1>
                <br>
                <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button" *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -191,10 +191,10 @@
                 Price: {{price1 | currency:'INR'}}
                 
                 <br>
-                <app-counter1></app-counter1>
+                <app-counter1 *ngIf="auth"></app-counter1>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button" *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -249,10 +249,10 @@
                 Price: {{price2 | currency:'INR'}}
                 <br>
                 
-                <app-counter1></app-counter1>
+                <app-counter1 *ngIf="auth"></app-counter1>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button" *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -306,10 +306,10 @@
                 Price: {{price3 | currency:'INR'}}
                 
                 <br>
-                <app-counter1></app-counter1>
+                <app-counter1 *ngIf="auth"></app-counter1>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button" *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -362,10 +362,10 @@
                 Price: {{price4| currency:'INR'}}
                 <br>
                
-               <app-counter1></app-counter1>
+               <app-counter1 *ngIf="auth"></app-counter1>
                <br>
                <br>
-                <button type="button" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
+                <button type="button" *ngIf="auth" class="btn btn-primary" style="margin-left: 1px;" (click)="onAdd()">Add to
                   cart</button>
                 <br>
                 <br>
@@ -386,43 +386,43 @@
 <br>
 <h4 style="text-align: center;">Featured Authors</h4>
 <br>
-<div class="row" style="margin-right: 25px;margin-left: 25px;padding-top: 15px; background-color: rgb(91, 152, 243);">
+<div  class="row" style="margin-right: 25px;margin-left: 25px;padding-top: 15px; background-color: rgb(91, 152, 243);">
   <div class="column">
-   <a routerLink="collen1"><img
+   <a routerLink="/home/collen1"><img
       src="https://media.glamour.com/photos/6217d495e8b28d9a55765674/4:3/w_2664,h_1998,c_limit/2-23%20dtw%20colleen%20hoover.jpg"
       alt="author" style="width:150px;height:150px;border-radius: 100px;"></a>
       <br>
       <br><h6 style="margin-left: 20px;">Collen Hoover</h6>
   </div>
   <div class="column">
-   <a routerLink="sudha1"><img src="https://cdn.shopify.com/s/files/1/2789/4914/files/Sudha_Murty_Books.jpg?v=1606299922" alt="author"
+   <a routerLink="/home/sudha1"><img src="https://cdn.shopify.com/s/files/1/2789/4914/files/Sudha_Murty_Books.jpg?v=1606299922" alt="author"
       style="width:150px;height:150px;border-radius: 100px;"></a>
       <br>
       <br> <h6 style="margin-left: 20px;">Sudha Murthy</h6>
   </div>
   <div class="column">
-    <a routerLink="morgan"><img class="responsive"
+    <a routerLink="/home/morgan"><img class="responsive"
       src="https://image.cnbcfm.com/api/v1/image/106583038-1592488934301morganhouselfheadshot.jpg?v=1607717173"
       alt="author" style="width:150px;height:150px;border-radius: 100px;"></a>
       <br>
       <br><h6 style="margin-left: 20px;">Morgan Housel</h6>
   </div>
   <div class="column">
-   <a routerLink="paulo"><img class="responsive" src="https://deadline.com/wp-content/uploads/2018/04/paulo-coelho-2.jpg?w=653&h=383&crop=1"
+   <a routerLink="/home/paulo"><img class="responsive" src="https://deadline.com/wp-content/uploads/2018/04/paulo-coelho-2.jpg?w=653&h=383&crop=1"
       style="width:150px;height:150px;border-radius: 100px;"></a>
     <br>
     <br>
     <h6 style="margin-left: 25px;">Paulo Coelho</h6>
   </div>
   <div class="column">
-    <a routerLink="rowling"><img class="responsive"
+    <a routerLink="/home/rowling"><img class="responsive"
       src="https://m.media-amazon.com/images/S/amzn-author-media-prod/8cigckin175jtpsk3gs361r4ss._SX450_.jpg"
       alt="author" style="width:150px;height:150px;border-radius: 100px;"></a>
       <br>
       <br><h6 style="margin-left: 25px;">J K Rowling</h6>
   </div>
   <div class="column">
-    <a routerLink="robin"><img class="responsive"
+    <a routerLink="/home/robin"><img class="responsive"
       src="https://m.economictimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg"
       alt="author" style="width:150px;height:150px;border-radius: 100px;"></a>
       <br>

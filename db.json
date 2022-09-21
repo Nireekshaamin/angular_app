@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "id": "001",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname": "Ikigai",
+      "pdescription": "Ikigai gently unlocks simple secrets we can use to live long",
+      "price": 399
+    },
+    {
+      "id": "002",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname": "The power of subconcious mind",
+      "pdescription": "To be able to control this 'mind power' ",
+      "price": 299
+    },
+    {
+      "id": "003",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/41CqlzJS-NL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname": "Think and grow rich",
+      "pdescription": "This is first book to boldly ask, What makes a winner",
+      "price": 1099
+    },
+    {
+      "id": "004",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/71j0FLAauxL.jpg",
+      "pname": "It ends with us",
+      "pdescription": "Its marketed as romance, and involves lighthearted love triangle instead of a woman's experience with spousal abuse.",
+      "price": 247
+    },
+    {
+      "id": "005",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSerr0Lo7tpDMBWx6INe8Zq8mW88IsDJtJL_2uLQ3OTa7EALmyv",
+      "pname": "Where the crawdads sing",
+      "pdescription": "A woman who raised herself in the marshes of the deep South becomes a suspect in the murder of a man she was once involved ",
+      "price": 500
+    },
+    {
+      "id": "006",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634158558l/59344312._SY475_.jpg",
+      "pname": "Verity",
+      "pdescription": "Verity's purported autobiography is a dark and disturbing confession of Verity's feelings, motivations, and vile acts",
+      "price": 449
+    },
+    {
+      "id": "007",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632597571l/17788401._SY475_.jpg",
+      "pname": "Ugly Love",
+      "pdescription": "Ugly Love is the story of Tate and Miles, who are neighbors and form a friends with benefits relationship soon after meeting",
+      "price": 399
+    },
+    {
+      "id": "008",
+      "img": "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/I/51-uspgqWIL._SX329_BO1,204,203,200_.jpg",
+      "pname": "Atomic Habits",
+      "pdescription": "Packed with evidence-based strategies, it will teach you how to make small changes that will transform your habits and deliver amazing results.",
+      "price": 247
+    },
+    {
+      "id": "009",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51W0hN8A7%2BL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname": "The ink black heart",
+      "pdescription": "The Ink Black Heart is a crime fiction novel by the English author J. K. Rowling, written under the pseudonym Robert Galbraith",
+      "price": 499
+    },
+    {
+      "id": "010",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642984407l/60142750.jpg",
+      "pname": "All good people here",
+      "pdescription": "All Good People Here is a debut thriller written by podcast host Ashley Flowers. Her experience with true crime shines through in this book of fiction.",
+      "price": 999
+    },
+    {
+      "id": "011",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/410llGwMZGL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "pname": "The alchemist",
+      "pdescription": "Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
+      "price": 899
+    },
+    {
+      "id": "4zjwx2m",
+      "pname": "Wicked deception",
+      "pdescription": " Wicked Deception by M.V Kasi is a new released dark romance featuring a strong and independent heroine, and an anti-hero.",
+      "price": "299",
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/91f8ni7o1ZL._AC_SR462,693_.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Pallavi",
+      "useremail": "pallavi@gmail.com",
+      "password": "Pallavi123",
+      "mobile": "9876543212"
+    },
+    {
+      "id": 2,
+      "username": "John",
+      "useremail": "john@gmail.com",
+      "password": "John@123",
+      "mobile": "745637826"
+    },
+    {
+      "username": "harry",
+      "useremail": "harry@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "username": "john1@gmail.com",
+      "useremail": "john1@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "pname": "Ikigai",
+      "pdescription": "Ikigai gently unlocks simple secrets we can use to live long",
+      "price": 399,
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "quantity": 3,
+      "id": 1
+    }
+  ]
+}

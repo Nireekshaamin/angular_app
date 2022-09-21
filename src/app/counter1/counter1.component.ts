@@ -11,9 +11,11 @@ export class Counter1Component implements OnInit {
 
   ngOnInit(): void {
   }
-  count:number=1;
-  receiveValue($event:number){
-    this.count=$event;
+  count = 1;
+  // @Input() count?:number;
+
+  receivecount($event: number) {
+    this.count = $event;
   }
 }
 

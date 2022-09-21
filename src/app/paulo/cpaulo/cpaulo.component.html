@@ -1,0 +1,29 @@
+
+<div class="row">
+    <app-authors></app-authors>
+</div>
+<hr>
+<div style="margin-top: 30px;">
+    <div class="row">
+        <!--1st column-->
+        <div class="col col-lg-2" style="padding-left: 20px;border-right: 1px solid black;height: 930px; " >
+            <app-category></app-category>
+        </div>
+
+        <!--2nd column-->
+        
+        <div class="col-lg-6" style="border:none;margin-top: 05px;">
+            <h6 style="margin-left: 360px; font-size: larger;"><b>Books By Paulo Coelho</b></h6><br>
+            <div class="row col-lg-4 row-cols-1 row-cols-md-3 g-4" style=" margin-right: 100px;  width: 800px; ">
+                <!--Interpolation Binding-->
+               
+            <app-paulo [product]="productItem" *ngFor="let productItem of all" ></app-paulo>
+        </div>
+        </div>
+        
+        <!--3rd column-->
+        <div class="col col-lg-3" style="width: 200px; margin-left: 180px; ">
+            <app-advertisement></app-advertisement>
+            
+        </div>
+    </div>

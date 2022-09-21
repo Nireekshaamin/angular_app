@@ -1,0 +1,27 @@
+[
+    {
+      "pid":"001",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51SkIDTd9rL._SX323_BO1,204,203,200_.jpg",
+      "pname":"Harry Potter",
+      "pdescription":"When mysterious letters start arriving on his doorstep, Harry Potter has never heard of Hogwarts School of Witchcraft and Wizardry.",
+      "Status":"In Stock",
+      "price": 270
+    },
+    {
+      "pid":"002",
+      "image":"https://m.media-amazon.com/images/I/51xJplho5wL.jpg",
+      "pname":"Fantastic Beasts & Where to Find Them",
+      "pdescription":"Fantastic Beasts and Where to Find Them is a 2001 guide book written by British author J. K. Rowling about the magical creatures in the Harry Potter universe.",
+      "Status":"In Stock",
+      "price": 300
+    },
+    {
+      "pid":"003",
+      "image":"https://m.media-amazon.com/images/I/91uq+UgoM3L._AC_UY327_FMwebp_QL65_.jpg",
+      "pname":"The Ink Black Heart",
+      "pdescription":"The Ink Black Heart is a crime fiction novel by the English author J. K. Rowling, written under the pseudonym Robert Galbraith",
+      "Status":"Out of Stock",
+      "price": 674
+    }
+    
+  ]
