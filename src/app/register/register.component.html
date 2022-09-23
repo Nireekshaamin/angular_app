@@ -16,18 +16,15 @@
                         placeholder="Enter email">
                     <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required
                         </label>
-                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must
-                        be a
-                        valid email address</label>
+                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must be a valid email address</label>
                 </div>
                 <br>
                 <div class="form-group">
                     <input type="password" class="form-control" name="password" formControlName="password"
                         placeholder="Enter password">
-                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['password']">Password is
+                    <label class="error ng-binding" *ngIf="submitted && f['password'].invalid">Password is
                         required</label>
-                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password
-                        must be at least 6 characters</label>
+                        <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6 characters</label>
                 </div>
                 <br>
                 <div class="form-group">

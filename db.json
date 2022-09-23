@@ -1,13 +1,6 @@
 {
   "posts": [
     {
-      "id": "001",
-      "img": "https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
-      "pname": "Ikigai",
-      "pdescription": "Ikigai gently unlocks simple secrets we can use to live long",
-      "price": 399
-    },
-    {
       "id": "002",
       "img": "https://images-eu.ssl-images-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
       "pname": "The power of subconcious mind",
@@ -43,13 +36,6 @@
       "price": 449
     },
     {
-      "id": "007",
-      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632597571l/17788401._SY475_.jpg",
-      "pname": "Ugly Love",
-      "pdescription": "Ugly Love is the story of Tate and Miles, who are neighbors and form a friends with benefits relationship soon after meeting",
-      "price": 399
-    },
-    {
       "id": "008",
       "img": "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/I/51-uspgqWIL._SX329_BO1,204,203,200_.jpg",
       "pname": "Atomic Habits",
@@ -78,11 +64,18 @@
       "price": 899
     },
     {
-      "id": "4zjwx2m",
+      "id": "012",
       "pname": "Wicked deception",
       "pdescription": " Wicked Deception by M.V Kasi is a new released dark romance featuring a strong and independent heroine, and an anti-hero.",
-      "price": "299",
+      "price": "499",
       "img": "https://images-eu.ssl-images-amazon.com/images/I/91f8ni7o1ZL._AC_SR462,693_.jpg"
+    },
+    {
+      "id": "014",
+      "img": "https://sulfurbooks.com/wp-content/uploads/2021/03/original-1056-1394x2048.jpeg",
+      "pname": "Harry Potter",
+      "pdescription": "The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.",
+      "price": 599
     }
   ],
   "users": [
@@ -108,21 +101,95 @@
       "id": 3
     },
     {
-      "username": "john1@gmail.com",
-      "useremail": "john1@gmail.com",
-      "password": "John@123",
-      "mobile": "",
+      "username": "harry",
+      "useremail": "h@gmail.com",
+      "password": null,
+      "mobile": null,
       "id": 4
+    },
+    {
+      "username": "harry",
+      "useremail": "harry@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 5
+    },
+    {
+      "username": "harry",
+      "useremail": "john@gmail.com",
+      "password": null,
+      "mobile": null,
+      "id": 6
+    },
+    {
+      "username": "Daisyy",
+      "useremail": "daisy@gmail.com",
+      "password": "daisy123",
+      "mobile": "09999999999",
+      "id": 8
+    },
+    {
+      "username": "diana",
+      "useremail": "diana@gmail.com",
+      "password": "diana123",
+      "mobile": "7892101574",
+      "id": 9
+    },
+    {
+      "username": "dianaa",
+      "useremail": "diana1@gmail.com",
+      "password": "diana123",
+      "mobile": "9098909890",
+      "id": 10
+    },
+    {
+      "username": "sam",
+      "useremail": "sam@gmail.com",
+      "password": "sam123",
+      "mobile": "9141931635",
+      "id": 11
     }
   ],
   "cart": [
+    {
+      "pname": "The power of subconcious mind",
+      "pdescription": "To be able to control this 'mind power' ",
+      "price": 299,
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "quantity": 3,
+      "id": 10
+    },
+    {
+      "pname": "It ends with us",
+      "pdescription": "Its marketed as romance, and involves lighthearted love triangle instead of a woman's experience with spousal abuse.",
+      "price": 247,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/71j0FLAauxL.jpg",
+      "quantity": 2,
+      "id": 13
+    },
     {
       "pname": "Ikigai",
       "pdescription": "Ikigai gently unlocks simple secrets we can use to live long",
       "price": 399,
       "img": "https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
-      "quantity": 3,
-      "id": 1
+      "quantity": 2,
+      "id": 15
+    },
+    {
+      "pname": "The power of subconcious mind",
+      "pdescription": "To be able to control this 'mind power' ",
+      "price": 299,
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "quantity": 2,
+      "id": 16
+    },
+    {
+      "pname": "Ikigai",
+      "pdescription": "Ikigai gently unlocks simple secrets we can use to live long",
+      "price": 399,
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/51xwGSNX-EL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "quantity": 2,
+      "id": 17
     }
   ]
 }

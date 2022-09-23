@@ -14,20 +14,10 @@
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{product.Status}}</p>
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{product.Status}}</p>
                 {{product.price | currency:'INR'}}<br>
-                            
-                <app-counter1 ></app-counter1>
-                <br><input type="number" name="quantity" [(ngModel)]="quantity" style="width:50px;border-radius:10px;" min="1" max="25">
-                <br>
-                <br>
                 Quantity: <input type="number" [(ngModel)]="quantity" name="quantity" [(ngModel)]="value" style="width:50px;border-radius:10px;" min="1" max="25">
-                <br>
-                <button class="btn btn-dark m-3" (click)="addToCart(product)" style="width:150px;border-radius:10px;">Add to Cart</button>
-                <br><button *ngSwitchCase="'In Stock'" type="button" (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Add to cart
-                                </button>
-                                <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Add to cart
-                                </button>
+                <br><br><button class="btn btn-dark" *ngSwitchCase="'In Stock'" (click)="addToCart(product)" style="width:150px;height:40px;border-radius:5px;">Add to Cart</button>
+                <button class="btn btn-dark" *ngSwitchCase="'Out of Stock'" (click)="onAdd1()" style="width:150px;height:40px;border-radius:5px;">Add to Cart</button>
+            
                 </div>
                 </div>
             </div>

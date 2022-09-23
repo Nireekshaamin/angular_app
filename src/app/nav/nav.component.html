@@ -26,12 +26,13 @@
         
         <a routerLink="login"><button class="btn btn-primary"  *ngIf="!auth"  type="submit"  style="border-radius:2px;margin-left: 120px;height: 50px;">Login</button></a>
         <a routerLink="register"><button class="btn btn-primary" *ngIf="!auth"  type="submit"  style="border-radius:2px;margin-left: 10px;width: 85px;height: 50px;">Sign Up</button></a>
-        <form class="d-flex">
-          <button routerLink='cartitem' style="height:5px;border:none;" *ngIf="auth">
-            <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="badge badge-warning" style="color:rgb(12, 12, 12);font-size: xx-small;">{{cartCount}}</sup></span>
-          </button> &nbsp;&nbsp;&nbsp;
-          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login"
+        <form class="d-flex" style="margin-left: 160px;">
+          <a class="btn btn-outline-warning"  type="submit" style="border-radius:10px;color:black;margin-right: 10px;" routerLink="login"
             *ngIf="auth">Logout</a>
+          <button routerLink='cartitem' style="height:2px;border:none;margin-bottom: 20px;" *ngIf="auth">{{cartCount}}<br>
+            <span class="fa fa-cart-plus" style="font-size:36px;color:black;"><sup class="badge badge-warning" style="color:rgb(12, 12, 12);font-size: xx-small;"></sup></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          
         </form>
         
       </form>

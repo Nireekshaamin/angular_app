@@ -3,9 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  userapi:"http://localhost:3000/users",
-  cartapi:"http://localhost:3000/cart"
+  
+  production: true,
+  userapi:"https://heroku-json-server-fakedb1.herokuapp.com/users",
+  cartapi:"https://heroku-json-server-fakedb1.herokuapp.com/cart",
+  //postsapi:"https://heroku-json-server-fakedb1.herokuapp.com/posts",
+  postsapi:"http://localhost:3000/posts",
+ 
 };
 
 /*

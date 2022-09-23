@@ -59,6 +59,10 @@ export class BookComponent implements OnInit {
     })
     this.cartsvc.getCount();
   }
+
+
+
+  
  
 
 

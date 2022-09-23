@@ -11,7 +11,7 @@ export class UserService {
     //passing the data as the next observable
     this.authSubject.next(data);
   }
-  hosturl=environment.userapi;
+  //hosturl=environment.userapi;
   
   value?:boolean;
     getAuthStatus(){

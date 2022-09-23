@@ -52,6 +52,7 @@ get f() { return this.loginForm.controls; }
       useremail: ['', [Validators.required, Validators.email,Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$')]],
       password: ['', [Validators.required, Validators.minLength(6)]]
         });
+        
   }
   login(){
     this.submitted = true;
@@ -77,7 +78,7 @@ get f() { return this.loginForm.controls; }
           title: 'Login Successful'
         })
         this.loginForm.reset();
-        this.router.navigate([''])
+        this.router.navigate(['home'])
         this.userService.validateAuth(true);
       }else{
         alert("user not found !!");       
