@@ -1,39 +1,39 @@
 [
     {
-        "pid":1,
+        "id":1,
         "pname":"Kids Frock",
         "pdescription":"Kids dress for girls between 4 - 6 years old",
         "price":750,
-        "image":"https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "image":"https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&id=1.7",
         "Status":"In Stock"
     
     },
     {
-        "pid":2,
+        "id":2,
         "pname":"Kids Building Blocks",
         "pdescription":"Kids toys for age between 4 - 6 years old",
         "price":1000,
-        "image":"https://th.bing.com/th/id/OIP.Gd6ov_glKB2t4KzG4vYWbwHaHa?pid=ImgDet&rs=1",
+        "image":"https://th.bing.com/th/id/OIP.Gd6ov_glKB2t4KzG4vYWbwHaHa?id=ImgDet&rs=1",
         "Status":"In Stock"
     },
     {
-        "pid":3,
+        "id":3,
         "pname":"Dell Inspiron 15",
         "pdescription":"Dell Laptop",
         "price":45000,
-        "image":"https://th.bing.com/th/id/OIP.w1nfH9XM1EoRpGvSyc-HHQHaHa?pid=ImgDet&rs=1",
+        "image":"https://th.bing.com/th/id/OIP.w1nfH9XM1EoRpGvSyc-HHQHaHa?id=ImgDet&rs=1",
         "Status":"In Stock"
     },
     {
-        "pid":4,
+        "id":4,
         "pname":"Jabra Headphones",
         "pdescription":"Jabra Headphones",
         "price":3500,
-        "image":"https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?pid=ImgDet&rs=1",
+        "image":"https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?id=ImgDet&rs=1",
         "Status":"In Stock"
     },
     {
-        "pid":5,
+        "id":5,
         "pname":"Titan Watch",
         "pdescription":"Titan watch for girls",
         "price":1500,
@@ -41,31 +41,31 @@
         "Status":"In Stock"
     },
     {
-        "pid":6,
+        "id":6,
         "pname":"Sony TV",
         "pdescription":"Sony Bravia LED TV - 65 inch",
         "price":35000,
-        "image":"https://th.bing.com/th/id/OIP.z35a_DfUQDnaHz2Nh8y7OgHaHa?pid=ImgDet&rs=1",
+        "image":"https://th.bing.com/th/id/OIP.z35a_DfUQDnaHz2Nh8y7OgHaHa?id=ImgDet&rs=1",
         "Status":"In Stock"
     },
     {
-        "pid":1,
+        "id":1,
         "pname":"Samsung",
         "pdescription":"Samsung - double door ",
         "price":100000,
-        "image":"https://th.bing.com/th/id/OIP.cEq4nA2i692-UiBSIbRf0QHaIq?w=176&h=206&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "image":"https://th.bing.com/th/id/OIP.cEq4nA2i692-UiBSIbRf0QHaIq?w=176&h=206&c=7&r=0&o=5&dpr=1.25&id=1.7",
         "Status":"In Stock"
     },
     {
-        "pid":2,
+        "id":2,
         "pname":"LG",
         "pdescription":"LG - 500 litres",
         "price":18990,
-        "image":"https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "image":"https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&id=1.7",
         "Status":"In Stock"
     },
     {
-        "pid":3,
+        "id":3,
         "pname":"Whirpool",
         "pdescription":"Whirlpool - Single Door",
         "price":11990,
@@ -73,7 +73,7 @@
         "Status":"In Stock"
     },
     {
-        "pid":4,
+        "id":4,
         "pname":"Godrej",
         "pdescription":"Godrej - Double Door",
         "price":21290,
@@ -81,7 +81,7 @@
         "Status":"In Stock"
     },
     {
-        "pid":5,
+        "id":5,
         "pname":"Croma",
         "pdescription":"Croma - Double Door Convertible",
         "price":25999,
@@ -89,7 +89,7 @@
         "Status":"In Stock"
     },
     {
-        "pid":6,
+        "id":6,
         "pname":"Bosch",
         "pdescription":"Bosch - 32litres - Triple Door",
         "price":43490,

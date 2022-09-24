@@ -1,5 +1,5 @@
 export class Nonfiction {
-    pid:number|undefined;
+    id:number|undefined;
     pname:string|undefined;
     pdescription:string|undefined;
     price:number|undefined;

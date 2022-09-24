@@ -19,7 +19,23 @@ img {
     float: left;
     width: 15%;
     margin-left: 12px;
+
     
+  }
+  .card-img-top:hover{
+    border: 5px solid #07092e;
+ 
+  }
+  /* .card:hover{
+    border: 5px solid 
+  } */
+  .responsive{
+    margin-top: 10px;
+  }
+  .responsive:hover{
+    opacity: 0.9;
+    border: 3px solid #125688;
+    box-shadow: 5px 2px 41px #1d17d2;
   }
   @media screen and (max-width: 500px) {
     .column {

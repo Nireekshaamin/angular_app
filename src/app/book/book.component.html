@@ -1,22 +1,22 @@
 
-         <div class="col">
-            <div class="card h-100" [ngSwitch]="product.Status" >
+         <div class="col"  >
+            <div class="card h-100"   [ngSwitch]="product.Status" >
                 <img src="{{product.img}}" style="border: 1px solid;" class="card-img-top"  alt="..." height="220px">
                 <div class="card-body" >
                     <h6>{{product.pname}}</h6>
-                    <p style=padding-left:5px;><b>Book Id: </b>{{product.pid}}</p>
+                    <p style=padding-left:5px;><b>Book Id: </b>{{product.id}}</p>
                     <div>
                     <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
                     </div>
                     <div [hidden]="productDetail">
-                    <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{product.pdescription}}</p>
+                    <p [style.color]="'black'" [style.padding-left.px]="'05'">{{product.pdescription}}</p>
                    </div>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{product.Status}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{product.Status}}</p>
+                    <p [style.padding-left.px]="'05'"  *ngSwitchCase="'In Stock'" class="text-success"><b>{{product.Status}}</b></p>
+                    <p [style.padding-left.px]="'05'"  *ngSwitchCase="'Out of Stock'" class="text-danger"><b>{{product.Status}}</b></p>
                 {{product.price | currency:'INR'}}<br>
                 Quantity: <input type="number" [(ngModel)]="quantity" name="quantity" [(ngModel)]="value" style="width:50px;border-radius:10px;" min="1" max="25">
                 <br><br><button class="btn btn-dark" *ngSwitchCase="'In Stock'" (click)="addToCart(product)" style="width:150px;height:40px;border-radius:5px;">Add to Cart</button>
-                <button class="btn btn-dark" *ngSwitchCase="'Out of Stock'" (click)="onAdd1()" style="width:150px;height:40px;border-radius:5px;">Add to Cart</button>
+                <button class="btn btn-dark" *ngSwitchCase="'Out of Stock'" (click)="onAdd1()" style="width:150px;height:40px;border-radius:5px;">Notify me</button>
             
                 </div>
                 </div>

@@ -11,7 +11,7 @@ export class TestService {
   constructor() { }
   test1:Test[]=[
     {
-      pid: 1,
+      id: 1,
       pname: 'How to Prepare for QUANTITATIVE APTITUDE for CAT',
       pdescription: 'Now with these CAT Practice Tests, you can practice and track your proficiency level, and  also improvise',
       price: 820,
@@ -19,7 +19,7 @@ export class TestService {
       Status: 'In Stock'
     },
     {
-      pid: 2,
+      id: 2,
       pname: 'Physics Galaxy 2020-21 : Advanced Illustration in Physics',
       pdescription: '700 advanced problems with illustrations to help the students crack the JEE Advanced exam',
       price: 377,
@@ -27,7 +27,7 @@ export class TestService {
       Status: 'In Stock'
     },
     {
-      pid: 3,
+      id: 3,
       pname: 'Objective NCERT at your FINGERTIPS for NEET-AIIMS - Biology',
       pdescription: 'It gives chapter-wise, student-friendly synopses for quick-and-easy revision of important concepts, ',
       price: 683,
@@ -35,15 +35,15 @@ export class TestService {
       Status: 'In Stock'
     },
     {
-      pid: 4,
+      id: 4,
       pname: '13 Years Solved Papers NEET 2021',
       pdescription: 'Solved Papers is collection of 13 years solved papers of NEET. This book covers all CBSE AIPMT and NTA NEET papers. ',
       price: 399,
-      image: 'https://th.bing.com/th/id/OIP.lSwR1_qeCvSy-7r9_GHRyQHaE6?pid=ImgDet&rs=1',
+      image: 'https://th.bing.com/th/id/OIP.lSwR1_qeCvSy-7r9_GHRyQHaE6?id=ImgDet&rs=1',
       Status: 'Out of Stock'
     },
     {
-      pid: 5,
+      id: 5,
       pname: 'The Official SAT Study Guide, 2020 Edition',
       pdescription: 'The official SAT study guide will help students get ready for the SAT exam with eight official SAT exam practice tests',
       price: 1233,
@@ -51,7 +51,7 @@ export class TestService {
       Status: 'In Stock'
     },
     {
-      pid: 6,
+      id: 6,
       pname: 'GATE 2023 : Previous Solved Papers',
       pdescription: 'Here we have provided GATE Computer Science and Information Technology question papers for last 32 years',
       price: 571,

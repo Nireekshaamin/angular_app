@@ -1,6 +1,6 @@
 [
     {
-        "pid":"001",
+        "id":"001",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/41vVdFtbjhL._AC_SX368_.jpg",
         "pname":"The last bear",
          "pdescription":"A beautiful story of friendship between a polar bear and a lonely girl, staying in the Arctic with her scientist father. ",
@@ -8,7 +8,7 @@
         "price": 396
       },
       {
-        "pid":"002",
+        "id":"002",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/513RCC-dLPL._AC_SX368_.jpg",
         "pname":"Dragon Legend ",
         "pdescription":"The second adventure in the ROARsome DRAGON REALM series for 9+ readers! Perfect for those looking for edge-of-your-seat adventure.",
@@ -16,7 +16,7 @@
         "price": 272
       },
       {
-        "pid":"003",
+        "id":"003",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/5128SJqk8bL._AC_SX368_.jpg",
         "pname":"Harry Potter",
         "pdescription":"The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley,",
@@ -25,7 +25,7 @@
       },
       
     {
-        "pid":"004",
+        "id":"004",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/51f23psflyL._AC_SX184_.jpg",
         "pname":"101 Panchatantra Stories",
         "pdescription":"Passed from generation to generation, Panchatantra Stories are the oldest surviving popular collection of stories.",
@@ -34,7 +34,7 @@
       },
       
       {
-        "pid":"005",
+        "id":"005",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/51fdb7x2ysL._AC_SX368_.jpg",
         "pname":"Prince with a paintbrush",
         "pdescription":"This magnificently illustrated biography will help young readers discover the life and works of Raja Ravi Varma, the artist who was born into royalty but earned the title of 'Raja' for his creativity on canvas.",
@@ -44,7 +44,7 @@
       
       
       {
-        "pid":"006",
+        "id":"006",
         "image":"https://images-eu.ssl-images-amazon.com/images/I/51+rzdTFFvL._AC_SX368_.jpg",
         "pname":"Dasavatara",
         "pdescription":" Stories of Lord Vishnu, as the name suggests is a book about the ten most famous avatars of Lord Vishnu.",

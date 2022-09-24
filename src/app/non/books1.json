@@ -1,6 +1,6 @@
 [
     {
-      "pid":"001",
+      "id":"001",
       "image":"https://images-na.ssl-images-amazon.com/images/I/41wIeh9EI-L._SX324_BO1,204,203,200_.jpg",
       "pname":"Sapiens: A Brief History of Humankind",
       "pdescription":"Its about the human history, from pre-anatomic humans through agricultural and scientific revolutions",
@@ -8,7 +8,7 @@
       "price": 319
     },
     {
-      "pid":"002",
+      "id":"002",
       "image":"https://images-na.ssl-images-amazon.com/images/I/515vh1yneVL._SX329_BO1,204,203,200_.jpg",
       "pname":"Sixth Extinction",
       "pdescription":"An Unnatural History is a 2014 non-fiction book written by Elizabeth Kolbert and published by Henry Holt and Company.",
@@ -16,7 +16,7 @@
       "price": 2283
     },
     {
-      "pid":"003",
+      "id":"003",
       "image":"https://images-na.ssl-images-amazon.com/images/I/81Yza7XmfjL.jpg",
       "pname":"Silent Spring",
       "pdescription":"Silent Spring began with a “fable for tomorrow” – a true story using a composite of examples drawn from many real communities",
@@ -24,7 +24,7 @@
       "price": 1222
     },
     {
-      "pid":"004",
+      "id":"004",
       "image":"https://m.media-amazon.com/images/I/41VN-yyv0xL._SX260_.jpg",
       "pname":"When Breath Becomes Air",
       "pdescription":"When Breath Becomes Air chronicles Kalanithi's transformation from a medical student asking what makes a virtuous and meaningful life into a neurosurgeon",
@@ -32,7 +32,7 @@
       "price": 199
     },
     {
-      "pid":"005",
+      "id":"005",
       "image":"https://images-na.ssl-images-amazon.com/images/I/71iQnGnNXSL.jpg",
       "pname":"Into Thin Air",
       "pdescription":"Into thin air : When the storm finally passed, five of them would be dead, and the sixth so horribly frostbitten that his right hand would have to be amputated.",
@@ -40,7 +40,7 @@
       "price": 323
     },
     {
-      "pid":"006",
+      "id":"006",
       "image":"https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/I/51-Q1F8BHcL._SX299_BO1,204,203,200_.jpg",
       "pname":"Hiroshima",
       "pdescription":"One of the great classics of the war(The New Republic) that tells what happened in Hiroshima through the memories of survivors—from a Pulitzer Prize-winning journalist. ",

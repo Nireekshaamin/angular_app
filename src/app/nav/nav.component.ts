@@ -13,8 +13,9 @@ export class NavComponent implements OnInit {
   cartCount: number=0;
   //string interpolation
   title = 'BookWorm';
+  //https://cdn-icons-png.flaticon.com/512/29/29302.png
   //PROPERTY BINDING
-  public logo="https://cdn-icons-png.flaticon.com/512/29/29302.png";
+  public logo="https://www.logolynx.com/images/logolynx/aa/aa3993182ad88a047d21fbcc09b44d04.png";
   //EVENT BINDING
   onSearch()
   {

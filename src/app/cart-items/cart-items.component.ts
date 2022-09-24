@@ -12,7 +12,7 @@ export class CartItemsComponent implements OnInit {
 
   constructor(private cartSvc: CartService, private router:Router) { }
   carts:Cartitem={
-    pid:0,
+    id:0,
     pname:'',
     pdescription:'',
     price:0,

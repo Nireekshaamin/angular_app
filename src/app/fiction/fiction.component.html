@@ -7,7 +7,7 @@
             <img src="{{prod.image}}" style="border: 1px solid;" class="card-img-top" alt="..." height="320px">
             <div class="card-body" >
                 <h5>{{prod.pname}}</h5>
-                <p style=padding-left:5px;><b>Book Id: </b>{{prod.pid}}</p>
+                <p style=padding-left:5px;><b>Book Id: </b>{{prod.id}}</p>
                     <p [style.color]="'blue'" [style.padding-left.px]="'05'">{{prod.pdescription}}</p>
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">{{prod.Status}}</p>
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">{{prod.Status}}</p>

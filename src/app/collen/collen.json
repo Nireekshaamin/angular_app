@@ -1,6 +1,6 @@
 [
     {
-        "pid":"001",
+        "id":"001",
         "image":"https://images-na.ssl-images-amazon.com/images/I/71j0FLAauxL.jpg",
         "pname":"It ends with us",
         "pdescription":"It Ends With Us has the bones of a powerful story but reads like a low budget Hallmark movie pushed forward by ridiculous plot revelations.",
@@ -8,7 +8,7 @@
         "price": 247
       },
       {
-        "pid":"002",
+        "id":"002",
         "image":"https://images-na.ssl-images-amazon.com/images/I/81FummIc2eL.jpg",
         "pname":"It starts with us",
         "pdescription":"Lily and her ex-husband, Ryle, have just settled into a civil coparenting rhythm when she suddenly bumps into her first love, Atlas, again.",
@@ -16,7 +16,7 @@
         "price": 560
       },
       {
-        "pid":"003",
+        "id":"003",
         "image":"https://images-na.ssl-images-amazon.com/images/I/617uZq23IPL.jpg",
         "pname":"Reminders of him",
         "pdescription":"A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story from #1 New York Times bestselling author Colleen Hoover.",

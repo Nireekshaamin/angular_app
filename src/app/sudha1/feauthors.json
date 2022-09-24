@@ -1,6 +1,6 @@
 [
       {
-        "pid":"004",
+        "id":"004",
         "image":"https://images-na.ssl-images-amazon.com/images/I/814YlnYqKfL.jpg",
         "pname":"How I thought my grandmother to read",
         "aname":"Sudha Murthy",
@@ -9,7 +9,7 @@
         "price": 263
       },
       {
-        "pid":"005",
+        "id":"005",
         "image":"https://images-na.ssl-images-amazon.com/images/I/81UhCMXi8fL.jpg",
         "pname":"The magic of the lost temple",
         "aname":"Sudha Murthy",
@@ -19,7 +19,7 @@
       },
       
       {
-        "pid":"006",
+        "id":"006",
         "image":"https://images-na.ssl-images-amazon.com/images/I/719JxK95IWL.jpg",
         "pname":"House of cards",
         "aname":"Sudha Murthy",

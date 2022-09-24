@@ -1,6 +1,6 @@
 [
     {
-        "pid":"001",
+        "id":"001",
         "image":"https://images-na.ssl-images-amazon.com/images/I/71j0FLAauxL.jpg",
         "pname":"It ends with us",
         "pdescription":"It Ends With Us has the bones of a powerful story but reads like a low budget Hallmark movie pushed forward by ridiculous plot revelations.",
@@ -8,7 +8,7 @@
         "price": 247
       },
       {
-        "pid":"002",
+        "id":"002",
         "image":"https://images-na.ssl-images-amazon.com/images/I/81FummIc2eL.jpg",
         "pname":"It starts with us",
         "pdescription":"Lily and her ex-husband, Ryle, have just settled into a civil coparenting rhythm when she suddenly bumps into her first love, Atlas, again.",
@@ -16,7 +16,7 @@
         "price": 560
       },
       {
-        "pid":"003",
+        "id":"003",
         "image":"https://images-na.ssl-images-amazon.com/images/I/617uZq23IPL.jpg",
         "pname":"Reminders of him",
         "pdescription":"A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story from bestselling author Colleen Hoover.",
@@ -24,7 +24,7 @@
         "price": 399
       },
       {
-        "pid":"004",
+        "id":"004",
         "image":"https://images-na.ssl-images-amazon.com/images/I/418A0HlyAOL._SX320_BO1,204,203,200_.jpg",
         "pname":"All Your Perfects",
         "pdescription":"All your perfects is a profound novel about a damaged couple whose potential future hinges on promises made in the past. ",
@@ -32,7 +32,7 @@
         "price": 459
       },
       {
-        "pid":"005",
+        "id":"005",
         "image":"https://images-na.ssl-images-amazon.com/images/I/41p8iY-vNqL._SX320_BO1,204,203,200_.jpg",
         "pname":"Hopeless",
         "pdescription":"Sometimes discovering the truth can leave you more hopeless than believing the lies. That's what Sky Davis realizes after she meets Dean Holder.",
@@ -40,7 +40,7 @@
         "price": 1295
       },
       {
-        "pid":"006",
+        "id":"006",
         "image":"https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476783284/finding-cinderella-9781476783284_hr.jpg",
         "pname":"Finding Cinderella",
         "pdescription":" A chance encounter in the dark leads eighteen-year-old Daniel and the girl who stumbles across him to profess their love for each other.",
