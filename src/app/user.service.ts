@@ -6,7 +6,30 @@ import { environment } from 'src/environments/environment';
 })
 export class UserService {
   public authSubject = new Subject<boolean>();
-  //Nav component to block access to other components
+  
+//admin
+public adminSubject = new Subject<boolean>();
+
+
+  validateAdmin(adminauth:boolean) {
+
+    this.adminSubject.next(adminauth);
+  }
+  //hosturl=environment.userapi;
+  
+  admvalue?:boolean;
+  getadminStatus(){
+  this.adminSubject.subscribe(
+    adminauth =>
+    {
+      console.log('inside user service: ' + adminauth);
+      this.value= adminauth;
+      console.log('inside user service 11: ' + this.admvalue);
+    }
+  );
+  return this.admvalue;
+}
+
   validateAuth(data:boolean) {
     //passing the data as the next observable
     this.authSubject.next(data);
@@ -25,5 +48,6 @@ export class UserService {
     );
     return this.value;
   }
+  
   constructor() { }
 }

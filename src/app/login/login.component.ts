@@ -59,6 +59,26 @@ get f() { return this.loginForm.controls; }
     if (this.loginForm.invalid) {
       return ;
     }
+    if ("admin@gmail.com"===this.loginForm.value.useremail && "admin123"===this.loginForm.value.password){
+      
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+        })
+        Toast.fire({
+          icon: 'success',
+          title: 'Login Successful'
+        })
+        this.loginForm.reset();
+        this.router.navigate(['home'])
+        this.userService.validateAdmin(true);
+    
+    
+  }
+    else{
     this.http.get<any>(this.userapi)
     .subscribe(res=>{
       const user=res.find((a:any)=>{
@@ -86,4 +106,5 @@ get f() { return this.loginForm.controls; }
       }
     })
   }
+}
 }

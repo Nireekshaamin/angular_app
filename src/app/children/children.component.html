@@ -25,11 +25,7 @@
         Price: {{product.price | currency:'INR'}}
 
         <br>
-        <br><button *ngSwitchCase="'In Stock'" type="button"  (click)="onAdd()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Add to cart
-        </button>
-        <button *ngSwitchCase="'Out of Stock'" type="button" (click)="onAdd1()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Add to cart
-        </button>
+        <br><button class="btn btn-dark" *ngSwitchCase="'In Stock'" (click)="onAdd()" style="width:150px;height:40px;border-radius:5px;">Add to Cart</button>
+        <button class="btn btn-dark" *ngSwitchCase="'Out of Stock'" (click)="onAdd1()" style="width:150px;height:40px;border-radius:5px;">Notify me</button>
         </div>
     </div>

@@ -18,8 +18,8 @@ export class ContactService {
     },
     {
       info1:"Phone",
-     info2:"+91 7892101574",
-     info3:"+91 9141931635",
+     info2:"+91 8976589199",
+     info3:"+91 9898989898",
      info4:"0820 2581635",
      info5:"fa fa-phone"
     },
